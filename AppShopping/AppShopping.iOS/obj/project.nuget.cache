@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tuqyoej3FfT0X6meWnXXrTVh2tmBQrcRlXhe4dfV8d1siaNo7uyHSck6sCSFmQI1FNdRmxg/MlZMuIiD62iadA==",
+  "success": true,
+  "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.iOS\\AppShopping.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": []
+}

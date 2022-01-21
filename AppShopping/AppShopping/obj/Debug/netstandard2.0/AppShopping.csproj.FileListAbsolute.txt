@@ -1,0 +1,16 @@
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.deps.json
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\ref\AppShopping.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.pdb
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.AssemblyReference.cache
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfoInputs.cache
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfo.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.CoreCompileInputs.cache
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\ref\AppShopping.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.pdb
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Stores.xaml.g.cs
