@@ -33,7 +33,9 @@
                 <Setter Property="BackgroundColor" Value="{StaticResource LightGray}"/>
             </Style>
 
-
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="MontserratRegular" />
+            </Style>
 
             <Style TargetType="Label" x:Key="MenuHeaderLabel">
                 <Setter Property="FontFamily" Value="MonstserratBold" />
