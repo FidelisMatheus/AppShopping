@@ -4,7 +4,11 @@
              xmlns:views="clr-namespace:AppShopping.Views"
              x:Class="AppShopping.Menu">
     <Shell.FlyoutHeader>
-        <Grid Margin="0, 25" ColumnDefinitions="1*, 2*" RowDefinitions="Auto, Auto">
+        <Grid Padding="0, 25" 
+              BackgroundColor="{StaticResource PrimaryColor}" 
+              ColumnDefinitions="1*, 2*" 
+              RowDefinitions="Auto, Auto">
+            
             <Image Source="BagWhite" Grid.RowSpan="2" /> <!--aqui o rowSpan realiza uma mesclagem com a linha que escrevemos, no caso a 2-->
 
             <Label Text="Bem vindo! ao" Grid.Column="1" Style="{StaticResource MenuHeaderLabel}"/>

@@ -5,6 +5,35 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="White">#FFFFFF</Color>
+            <Color x:Key="Black">#000000</Color>
+            <Color x:Key="LightGray" >#D3D3D3</Color>
+            
+            <Color x:Key="TextPrimaryColor" >#000000</Color>
+            <Color x:Key="TextSecondColor" >#A0A0A0</Color>
+
+            <Color x:Key="PrimaryColor" >#F86237</Color>
+
+            <Color x:Key="SuccessColor" >#1BAB42</Color>
+            <Color x:Key="ErrorColor" >#F44343</Color>
+            
+            <!--Element é o elemento principal do Shell, aqui estamos mexendo apenas na tela do conteudo-->
+            <Style TargetType="Element" x:Key="FlyoutBaseStyle">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource White}"/>
+                <Setter Property="Shell.ForegroundColor" Value="{StaticResource PrimaryColor}"/>
+                <Setter Property="Shell.NavBarHasShadow" Value="False"/>
+                <Setter Property="Shell.TitleColor" Value="{StaticResource PrimaryColor}"/>
+                <Setter Property="Shell.UnselectedColor" Value="{StaticResource Black}" />
+            </Style>
+            
+            <!--Aqui estamos passando para o xamarin que queremos que os FlyoutItems recebam o Style-->
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource FlyoutBaseStyle}"/>
+            
+            <!--Todas as contentpages filhas terão a mesma config-->
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{StaticResource LightGray}"/>
+            </Style>
+
+
 
             <Style TargetType="Label" x:Key="MenuHeaderLabel">
                 <Setter Property="FontFamily" Value="MonstserratBold" />
