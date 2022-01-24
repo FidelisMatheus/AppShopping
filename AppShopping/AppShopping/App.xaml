@@ -28,6 +28,7 @@
             
             <!--Aqui estamos passando para o xamarin que queremos que os FlyoutItems recebam o Style-->
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource FlyoutBaseStyle}"/>
+            <Style TargetType="ShellContent" BasedOn="{StaticResource FlyoutBaseStyle}"/>
             
             <!--Todas as contentpages filhas terão a mesma config-->
             <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
