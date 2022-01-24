@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "NxWrh0DUZpS7HHhVb+2fhoMaQCnmRwZQGUA1HyrRPWO611OU0Ge7UQhi1cB988ZUxHu+HJU/JOueLUuhvWivKw==",
+  "dgSpecHash": "cSe3RuiuuU9gsFD/Di6D1E7WpdJUv0NscpGoHBnwYOT96R+UFms9mYya+Tg5pyrg++Nnc7PCC4yM/GHJb+tWCg==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping\\AppShopping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfmat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
   ],
