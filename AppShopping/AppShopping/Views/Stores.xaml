@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:AppShopping.ViewModels"
              x:Class="AppShopping.Views.Stores">
+    <!--Modificar o cabeçalho-->
+    <Shell.TitleView>
+        <ContentView>
+            <Image Source="TitleViewLogo" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="30"/>
+        </ContentView>
+    </Shell.TitleView>
 
     <ContentPage.BindingContext> <!--Instanciando e conectando uma viewModel a uma view, em tempo de execução-->
         <viewModels:StoresViewModel/>
@@ -11,9 +17,11 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Grid ColumnDefinitions="*, 70" RowDefinitions="50">
-                <Entry Text="{Binding SearchWord}" Placeholder="Pesquisa"/>
-                <Button Command="{Binding SearchCommand}" Grid.Column="1" Text="OK" />
+            <Grid ColumnDefinitions="*, 70" RowDefinitions="50" Margin="10, 0">
+                <Frame Padding="10, 0" HasShadow="False" BorderColor="{StaticResource BorderColor}" CornerRadius="0">
+                    <Entry Text="{Binding SearchWord}" Placeholder="Pesquisa"/>
+                </Frame>
+                <Button Command="{Binding SearchCommand}" Grid.Column="1" Text="OK" Style="{StaticResource PrimaryButton}" />
             </Grid>
             
 
