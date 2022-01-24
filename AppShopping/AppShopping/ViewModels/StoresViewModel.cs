@@ -55,7 +55,7 @@ namespace AppShopping.ViewModels
         private void Search()
         {
             //filtro para pesquisar os registros das lojas -> Salvo no Establishments
-            Establishments = _allEstablishments.Where(a => a.Name.ToLower().Contains(SearchWord)).ToList();
+            Establishments = _allEstablishments.Where(a => a.Name.ToLower().Contains(SearchWord.ToLower())).ToList();
 
             /*
              * aqui ele não funcionaria corretamente, pois a tela necessita ser notificada de trocar

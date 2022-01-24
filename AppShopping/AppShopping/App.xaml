@@ -10,6 +10,7 @@
             
             <Color x:Key="TextPrimaryColor" >#000000</Color>
             <Color x:Key="TextSecondColor" >#A0A0A0</Color>
+            <Color x:Key="BorderColor">#707070</Color>
 
             <Color x:Key="PrimaryColor" >#F86237</Color>
 
@@ -42,6 +43,24 @@
                 <Setter Property="FontSize" Value="12"/>
                 <Setter Property="TextColor" Value="{StaticResource White}" />
             </Style>
+
+            <Style TargetType="Line">
+                <Setter Property="Stroke" Value="#707070" />
+                <Setter Property="StrokeDashArray" Value="3,3" />
+            </Style>
+
+            <Style TargetType="Label" x:Key="NameEstablishment">
+                <Setter Property="FontFamily" Value="MontserratRegular"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="TextColor" Value="{StaticResource Black}"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="DescriptionEstablishment">
+                <Setter Property="FontFamily" Value="MontserratLight"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="TextColor" Value="{StaticResource TextSecondColor}"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

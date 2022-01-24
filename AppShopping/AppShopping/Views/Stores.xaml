@@ -11,14 +11,33 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Entry Text="{Binding SearchWord}" Placeholder="Pesquisa"/>
+            <Grid ColumnDefinitions="*, 70" RowDefinitions="50">
+                <Entry Text="{Binding SearchWord}" Placeholder="Pesquisa"/>
+                <Button Command="{Binding SearchCommand}" Grid.Column="1" Text="OK" />
+            </Grid>
             
-            <Button Command="{Binding SearchCommand}" Text="OK" />
 
             <CollectionView ItemsSource="{Binding Establishments}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding Name}" />
+
+                        <ContentView Padding="10">
+                            <Frame CornerRadius="0" HasShadow="False" BorderColor="{StaticResource BorderColor}" Padding="1">
+                                <Grid ColumnDefinitions="1*,1, 2*" RowDefinitions="96">
+                                    <!--1 terço dps 2 terços-->
+                                    <Image HeightRequest="80" Source="{Binding Logo}" Margin="10"/>
+                                    <!--X1 X2 e Y1 Y2 são as coordenadas no plano cartesiano-->
+                                    <Line Grid.Column="1" X1="0" X2="0" Y1="0" Y2="96"/>
+                                    
+                                    <StackLayout Grid.Column="2" Margin="10">
+                                        <Label Text="{Binding Name}" Style="{StaticResource NameEstablishment}" />
+                                        <Label Text="{Binding Description}" MaxLines="3" Style="{StaticResource DescriptionEstablishment}" />
+                                    </StackLayout>
+                                        
+                                </Grid>
+                            </Frame>
+                        </ContentView>
+                        
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

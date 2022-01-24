@@ -725,3 +725,5 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\MvvmHelpers.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\MvvmHelpers.pdb
