@@ -25,6 +25,7 @@
                         <ContentView Padding="0,10">
                             <Frame>
                                 <Grid ColumnDefinitions="1*,1, 2*" RowDefinitions="140">
+                                    
                                     <!--1 terço dps 2 terços-->
                                     <Image HeightRequest="115" Source="{Binding Cover}" Margin="10"/>
                                     <!--X1 X2 e Y1 Y2 são as coordenadas no plano cartesiano-->

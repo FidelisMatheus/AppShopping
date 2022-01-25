@@ -26,6 +26,6 @@
     <ShellContent Title="Novidades" Icon="MenuIconNews" ContentTemplate="{DataTemplate views:Stores}" />
     <ShellContent Title="Como chegar" Icon="MenuIconMaps" ContentTemplate="{DataTemplate views:Stores}" />
     <ShellContent Title="Wifi" Icon="MenuIconWifi" ContentTemplate="{DataTemplate views:Stores}" />
-    <ShellContent Title="EstablishmentDetail" Icon="MenuIconWifi" ContentTemplate="{DataTemplate views:EstablishmentDetail}" />
+    <ShellContent Title="Film Detail" Icon="MenuIconWifi" ContentTemplate="{DataTemplate views:FilmDetail}" />
 
 </Shell>
