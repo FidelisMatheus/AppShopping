@@ -16,3 +16,4 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Men
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Stores.xaml.g.cs
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\EstablishmentDetail.xaml.g.cs
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Restaurants.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Cinema.xaml.g.cs
