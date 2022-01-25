@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:AppShopping.ViewModels"
+             xmlns:enums="clr-namespace:AppShopping.Libraries.Enuns"
              x:Name="StoresPage"
              x:Class="AppShopping.Views.Stores">
+    
     <!--Modificar o cabeçalho-->
     <Shell.TitleView>
         <ContentView>
@@ -12,7 +14,13 @@
     </Shell.TitleView>
 
     <ContentPage.BindingContext> <!--Instanciando e conectando uma viewModel a uma view, em tempo de execução-->
-        <viewModels:StoresViewModel/>
+        <viewModels:StoresViewModel>
+            <x:Arguments>
+                <enums:EstablishmentType>
+                    Store
+                </enums:EstablishmentType>
+            </x:Arguments>
+        </viewModels:StoresViewModel>
     </ContentPage.BindingContext>
     
     <ContentPage.Content>
