@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Xa3Fp0gHrhwDXHUZ5+SeyCBF9ZVRmUqslCPJTapaTZch2oAIsePxR5U/avsJL3CFCH2kdnmuW/k45/4W8I5trw==",
+  "dgSpecHash": "IDiF8PtUK5mq3Ja0zlUtVIgS4Wo3iJB+1V7zLy2Ta7TZir2CEz75u/sBrdXPPhS1HniA6ygd8Y+LccGgltJ09Q==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.iOS\\AppShopping.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mfmat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",

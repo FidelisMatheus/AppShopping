@@ -8,6 +8,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using System.Linq;
 using AppShopping.Libraries.Helpers.MVVM;
+using Newtonsoft.Json;
 
 namespace AppShopping.ViewModels
 {
@@ -41,9 +42,14 @@ namespace AppShopping.ViewModels
 
         public List<Establishment> _allEstablishments; //prop criada para evitar consultas frequentes
 
+        //Routes aqui
+        public ICommand DetailCommand { get; set; }
+
+
         public StoresViewModel()
         {
             SearchCommand = new Command(Search);
+            DetailCommand = new Command<Establishment>(Detail);
 
             var allEstablishment = new EstablishmentService().GetEstablishments(); //E30 = L20 + R10
             var allStores = allEstablishment.Where(a => a.Type == EstablishmentType.Store).ToList();
@@ -61,6 +67,13 @@ namespace AppShopping.ViewModels
              * aqui ele não funcionaria corretamente, pois a tela necessita ser notificada de trocar
              * os seus dados apresentados
              */
+        }
+
+        private void Detail(Establishment establishment)
+        {
+            String establishmentSerialized = JsonConvert.SerializeObject(establishment);
+
+            Shell.Current.GoToAsync($"establishment/detail?establishmentSerialized={Uri.EscapeDataString(establishmentSerialized)}");
         }
 
     }

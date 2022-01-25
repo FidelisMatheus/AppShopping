@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cSe3RuiuuU9gsFD/Di6D1E7WpdJUv0NscpGoHBnwYOT96R+UFms9mYya+Tg5pyrg++Nnc7PCC4yM/GHJb+tWCg==",
+  "dgSpecHash": "Jv3lFIGl5p5mWeoHAsrOhs29loS92iUrVBVtEjZ+GTaCL2jCksQ581cYSBwp9QG+kSDzGGVFgLi6ejLMWx5ezA==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping\\AppShopping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfmat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
