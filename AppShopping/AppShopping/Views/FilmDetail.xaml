@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewModels="clr-namespace:AppShopping.ViewModels">
+
     <Shell.TitleView>
         <ContentView>
             <Image
@@ -35,7 +36,7 @@
                 </StackLayout>
             </CollectionView.Header>
 
-            <CollectionView.GroupHeaderTemplate> 
+            <CollectionView.GroupHeaderTemplate>
                 <!--  Titulo das Sessões  -->
                 <DataTemplate>
                     <ContentView>
@@ -53,7 +54,7 @@
 
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <ContentView Padding="10,5"> 
+                    <ContentView Padding="10,5">
                         <!--  Sessões  -->
 
                         <Frame Padding="10" BorderColor="{StaticResource PrimaryColor}">
