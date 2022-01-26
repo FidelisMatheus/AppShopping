@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IDiF8PtUK5mq3Ja0zlUtVIgS4Wo3iJB+1V7zLy2Ta7TZir2CEz75u/sBrdXPPhS1HniA6ygd8Y+LccGgltJ09Q==",
+  "dgSpecHash": "jswf0DaF8kIyZYSwsXrLkrEDSXx8urF5ursy4iCBVpkkn+L2n5L/F1yf0UaIOSXlulIBjZSQBm5PMXA+bgVmNw==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.iOS\\AppShopping.iOS.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,9 @@
     "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
