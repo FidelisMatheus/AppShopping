@@ -2,7 +2,8 @@
 <ContentPage
     x:Class="AppShopping.Views.TicketScan"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModels="clr-namespace:AppShopping.ViewModels">
 
     <Shell.TitleView>
         <ContentView>
@@ -13,6 +14,10 @@
                 VerticalOptions="Center" />
         </ContentView>
     </Shell.TitleView>
+
+    <ContentPage.BindingContext>
+        <viewModels:TicketScanViewModel />
+    </ContentPage.BindingContext>
 
     <ContentPage.Content>
         <StackLayout Padding="10">
@@ -28,17 +33,19 @@
                     BorderColor="{StaticResource BorderColor}"
                     CornerRadius="0"
                     HasShadow="False">
-                    <Entry Placeholder="Escanear Ticket" Text="" />
+                    <Entry Placeholder="Escanear Ticket" Text="{Binding TicketNumber}" />
                 </Frame>
                 <Button
                     Grid.Column="1"
+                    Command="{Binding TicketScanCommand}"
                     ImageSource="Camera"
                     Style="{StaticResource PrimaryButton}" />
             </Grid>
 
-            <Label Text="Ticket não encontrado" TextColor="{StaticResource ErrorColor}" />
+            <Label Text="{Binding Message}" TextColor="{StaticResource ErrorColor}" />
 
             <Button
+                Command="{Binding TicketPaidHistoryCommand}"
                 HorizontalOptions="Center"
                 Style="{StaticResource TicketPaidButton}"
                 Text="Tickets pagos"
