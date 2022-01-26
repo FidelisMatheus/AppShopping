@@ -22,7 +22,7 @@ namespace AppShopping.ViewModels
             Films = new CinemaService().GetFilms();
         }
 
-        public void FilmDetail(Film film)
+        private void FilmDetail(Film film)
         {
             //Serializar o Filme > Enviar via URI
             var filmSerialized = JsonConvert.SerializeObject(film);
