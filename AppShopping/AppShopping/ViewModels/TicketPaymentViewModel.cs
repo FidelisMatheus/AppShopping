@@ -1,5 +1,6 @@
 ﻿using AppShopping.Libraries.Helpers.MVVM;
 using AppShopping.Models;
+using AppShopping.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,20 +12,20 @@ namespace AppShopping.ViewModels
     public class TicketPaymentViewModel : BaseViewModel
     {
         private string _number;
-
         public String Number
         {
             set
             {
-                _number = value; //aqui é o ticket scaneado
-                OnPropertyChanged(nameof(Number));
+                SetProperty(ref _number, value);
 
-                //TODO - Pesquisar Ticket e Jogar na tela.
+                //Pesquisar Ticket e Jogar na tela.
+                Ticket = _ticketService.GetTicketInfo(value);
+
+                //TODO - Atribuir Data final e Calcular o valor do Ticket.
             }
         }
 
         private Ticket _ticket;
-
         public Ticket Ticket
         {
             get { return _ticket; }
@@ -34,10 +35,10 @@ namespace AppShopping.ViewModels
             }
         }
 
-
+        private TicketService _ticketService;
         public TicketPaymentViewModel()
         {
-
+            _ticketService = new TicketService();
         }
     }
 }

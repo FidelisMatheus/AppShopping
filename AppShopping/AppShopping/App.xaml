@@ -125,6 +125,15 @@
                 <Setter Property="CornerRadius" Value="0" />
             </Style>
 
+            <!--  Style Ticket Payment View  -->
+            <Style x:Key="EntryPayment" TargetType="Entry">
+                <Setter Property="FontFamily" Value="MontserratRegular" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="{StaticResource Black}" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="VerticalOptions" Value="Start" />
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
