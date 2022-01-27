@@ -755,10 +755,7 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androi
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\ZXing.Net.Mobile.Forms.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\zxing.portable.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\ZXingNetMobile.dll
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\jl\b5eca2f4-e324-4440-a8c8-61f96d057d9f.jar
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\a41d9951-088b-41da-b7be-913ae49c730a.cfg
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\f0b9ce0d-73d3-4771-a015-bf91fe3c9cb1.txt
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXJetifyProguardRules.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\_AndroidXJetifyProguardRules.jetify
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXCecilfy.stamp
@@ -773,3 +770,7 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androi
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXJetifyManifest.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\_AndroidXJetifyManifest.jetify
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_CopyIntermediateAssemblies.stamp
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\Xamarin.Forms.MaskedEntry.dll
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\jl\cab24fb0-f4b9-4ea6-b3cb-b4ab1856633a.jar
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\99b55f45-d292-41db-8ac0-f9f57956e5d6.txt
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\b831a824-1729-47a4-b98e-004218907b18.cfg

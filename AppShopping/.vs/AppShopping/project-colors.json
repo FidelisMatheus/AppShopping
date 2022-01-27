@@ -15,7 +15,12 @@
       "ProjectGuid": "30a217d6-4d25-4451-89a5-b2b89e5921ea",
       "DisplayName": "AppShopping",
       "ColorIndex": 1
+    },
+    "21a99909-f6c7-465d-bcc3-60e607625dd8": {
+      "ProjectGuid": "21a99909-f6c7-465d-bcc3-60e607625dd8",
+      "DisplayName": "AppShopping.iOS",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

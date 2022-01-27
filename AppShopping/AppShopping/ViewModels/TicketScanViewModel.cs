@@ -13,7 +13,8 @@ namespace AppShopping.ViewModels
     public class TicketScanViewModel : BaseViewModel
     {
         public string TicketNumber { get; set; }
-        public ICommand TicketScanCommand { get; set; }
+        public ICommand TicketTextChangedCommand { get; set; } //comando para verificar a escrita
+        public ICommand TicketScanCommand { get; set; } //Comando para a chamada da Camera
         
         private string _message;
         public string Message
@@ -33,6 +34,7 @@ namespace AppShopping.ViewModels
         public TicketScanViewModel()
         {
             TicketScanCommand = new MvvmHelpers.Commands.AsyncCommand(TicketScan); //necessita trocar já que o command nao aceita async
+            TicketTextChangedCommand = new Command(TicketTextChanged);
             TicketPaidHistoryCommand = new Command(TicketPaidHistory);
         }
 
@@ -63,6 +65,16 @@ namespace AppShopping.ViewModels
              * > Ticket > GoToAsync
              */
         }
+
+        private void TicketTextChanged() 
+        {
+            if(TicketNumber.Length == 15)
+            {
+                var ticketNumber = TicketNumber.Replace(" ", string.Empty);
+                TicketProcess(ticketNumber);
+            }
+        }
+
 
         private void TicketProcess(string ticketNumber)
         {

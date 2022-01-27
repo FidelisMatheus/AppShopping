@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A62Dqdbp4GtUHyBj6DeyD3z0lqpNV9WABJlDHOqLpMDxgk4jv+c8xGF2vgeG17RUOPSaqXhiYJSCztLio2dAdw==",
+  "dgSpecHash": "zl0QrqDfz5JyvPin1ANQ+X9D7d6RwuizaN77a4A1mioxjuQAiBC5HL4wYQit46cl/ItkxTKUx1DiPpnYI8pB+A==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.Android\\AppShopping.Android.csproj",
   "expectedPackageFiles": [
@@ -71,10 +71,32 @@
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms.maskedentry\\1.1.0\\xamarin.forms.maskedentry.1.1.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Essentials de 1.7.1 para 1.7.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n AppShopping.Android -> AppShopping -> Xamarin.Essentials (>= 1.7.1) \r\n AppShopping.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Forms de 5.0.0.2337 para 5.0.0.2291. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n AppShopping.Android -> AppShopping -> Xamarin.Forms (>= 5.0.0.2337) \r\n AppShopping.Android -> Xamarin.Forms (>= 5.0.0.2291)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }

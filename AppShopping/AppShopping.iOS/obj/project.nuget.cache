@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jswf0DaF8kIyZYSwsXrLkrEDSXx8urF5ursy4iCBVpkkn+L2n5L/F1yf0UaIOSXlulIBjZSQBm5PMXA+bgVmNw==",
+  "dgSpecHash": "xNIecX/WWhArxidEMYHcoNW6cxWzMSvlg1H6a1xe+K8+KQ0eZpDRaq1ocpqR/04ReNi/VrUz8vs4h58lZkSBmA==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.iOS\\AppShopping.iOS.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,36 @@
     "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms.maskedentry\\1.1.0\\xamarin.forms.maskedentry.1.1.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Essentials de 1.7.1 para 1.7.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n AppShopping.iOS -> AppShopping -> Xamarin.Essentials (>= 1.7.1) \r\n AppShopping.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Downgrade de pacote detectado: Xamarin.Forms de 5.0.0.2337 para 5.0.0.2291. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n AppShopping.iOS -> AppShopping -> Xamarin.Forms (>= 5.0.0.2337) \r\n AppShopping.iOS -> Xamarin.Forms (>= 5.0.0.2291)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
