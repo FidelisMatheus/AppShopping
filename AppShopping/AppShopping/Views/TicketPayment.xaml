@@ -114,17 +114,26 @@
                             CornerRadius="0"
                             HasShadow="False">
 
-                            <Entry Placeholder="Nome no cartão" Style="{StaticResource EntryPayment}" />
+                            <Entry
+                                Placeholder="Nome no cartão"
+                                Style="{StaticResource EntryPayment}"
+                                Text="{Binding CreditCard.Name}" />
 
                         </Frame>
 
+
                         <Frame
+                            Grid.Column="0"
                             Padding="10,0"
                             BorderColor="{StaticResource BorderColor}"
                             CornerRadius="0"
                             HasShadow="False">
 
-                            <Entry Placeholder="Número do cartão" Style="{StaticResource EntryPayment}" />
+                            <control:MaskedEntry
+                                Mask="XXXX XXXX XXXX XXXX"
+                                Placeholder="Número do cartão"
+                                Style="{StaticResource EntryPayment}"
+                                Text="{Binding CreditCard.Number}" />
 
                         </Frame>
 
@@ -139,7 +148,8 @@
                                 <control:MaskedEntry
                                     Mask="XX/XXXX"
                                     Placeholder="Validade"
-                                    Style="{StaticResource EntryPayment}" />
+                                    Style="{StaticResource EntryPayment}"
+                                    Text="{Binding CreditCard.Expired}" />
 
                             </Frame>
 
@@ -153,7 +163,8 @@
                                 <control:MaskedEntry
                                     Mask="XXX"
                                     Placeholder="Cód. Segurança"
-                                    Style="{StaticResource EntryPayment}" />
+                                    Style="{StaticResource EntryPayment}"
+                                    Text="{Binding CreditCard.SecurityCode}" />
 
                             </Frame>
                         </Grid>
@@ -167,7 +178,8 @@
                             <control:MaskedEntry
                                 Mask="XXX.XXX.XXX-XX"
                                 Placeholder="CPF"
-                                Style="{StaticResource EntryPayment}" />
+                                Style="{StaticResource EntryPayment}"
+                                Text="{Binding CreditCard.Document}" />
 
                         </Frame>
 
