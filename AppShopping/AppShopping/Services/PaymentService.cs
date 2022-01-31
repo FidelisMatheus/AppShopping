@@ -7,6 +7,8 @@ namespace AppShopping.Services
 {
     public class PaymentService
     {
+        //Falta enviar para o Provedor de Pagamento: Ticker(Number), Valor e Dados do Cliente(Endereço) - Visa, Master. 
+
         public int SendPayment(CreditCard creditCard) //realiza o pagamento
         {
             if(creditCard.SecurityCode == "111")

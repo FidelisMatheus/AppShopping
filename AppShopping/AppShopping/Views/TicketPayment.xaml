@@ -108,6 +108,11 @@
                             Text="Cartão de Crédito" />
                         <Label Style="{StaticResource DescriptionEstablishment}" Text="Coloque o cartão para pagar o estacionamento" />
 
+                        <Label
+                            Style="{StaticResource DescriptionEstablishment}"
+                            Text="{Binding Messages}"
+                            TextColor="Red" />
+
                         <Frame
                             Padding="10,0"
                             BorderColor="{StaticResource BorderColor}"
@@ -130,6 +135,7 @@
                             HasShadow="False">
 
                             <control:MaskedEntry
+                                Keyboard="Numeric"
                                 Mask="XXXX XXXX XXXX XXXX"
                                 Placeholder="Número do cartão"
                                 Style="{StaticResource EntryPayment}"
@@ -146,6 +152,7 @@
                                 HasShadow="False">
 
                                 <control:MaskedEntry
+                                    Keyboard="Numeric"
                                     Mask="XX/XXXX"
                                     Placeholder="Validade"
                                     Style="{StaticResource EntryPayment}"
@@ -161,6 +168,7 @@
                                 HasShadow="False">
 
                                 <control:MaskedEntry
+                                    Keyboard="Numeric"
                                     Mask="XXX"
                                     Placeholder="Cód. Segurança"
                                     Style="{StaticResource EntryPayment}"
@@ -176,6 +184,7 @@
                             HasShadow="False">
 
                             <control:MaskedEntry
+                                Keyboard="Numeric"
                                 Mask="XXX.XXX.XXX-XX"
                                 Placeholder="CPF"
                                 Style="{StaticResource EntryPayment}"
@@ -183,12 +192,15 @@
 
                         </Frame>
 
-                        <Label Text="Usaremos este CPF para emitir a nota legal" />
+                        <Label Style="{StaticResource DescriptionEstablishment}" Text="Usaremos este CPF para emitir a nota legal" />
 
                     </StackLayout>
                 </yummy:PancakeView>
 
-                <Button Style="{StaticResource TicketPaidButton}" Text="Pagar" />
+                <Button
+                    Command="{Binding PaymentCommand}"
+                    Style="{StaticResource TicketPaidButton}"
+                    Text="Pagar" />
 
             </StackLayout>
         </ScrollView>
