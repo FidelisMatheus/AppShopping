@@ -9,14 +9,14 @@ namespace AppShopping.Services
     {
         //Falta enviar para o Provedor de Pagamento: Ticker(Number), Valor e Dados do Cliente(Endereço) - Visa, Master. 
 
-        public int SendPayment(CreditCard creditCard) //realiza o pagamento
+        public string SendPayment(CreditCard creditCard, Ticket ticket) //realiza o pagamento
         {
             if(creditCard.SecurityCode == "111")
             {
                 throw new Exception("Código de segurança inválido!");
             }
 
-            return 1; //geralmente enviaria um codigo de transação
+            return "1"; //geralmente enviaria um codigo de transação
         }
     }
 }

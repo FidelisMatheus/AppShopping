@@ -85,7 +85,15 @@ namespace AppShopping.ViewModels
 
                 if (string.IsNullOrEmpty(messages))
                 {
-                    int paymentId = _paymentService.SendPayment(CreditCard);
+                    //PagSeguro, PayPal, Pagar.Me etc. Dados do: Cliente*, Cartão de Crédito, Produto/Serviço (Preço).
+                    //Caso não funcionar com os acima utilizar> Cielo, Visa, Elo, MasterCard.
+                    string transactionId = _paymentService.SendPayment(CreditCard, Ticket);
+                    Ticket.TransactionId = transactionId;
+
+                    var x = _ticketService.GetTicketsPaid();
+
+                    Ticket.Status = Libraries.Enuns.TicketStatus.paid;
+
                     //TODO - Redirecionar para tela de sucesso.
                 }
                 else
@@ -127,7 +135,14 @@ namespace AppShopping.ViewModels
                 var month = int.Parse(expiredString[0]);
                 var year = int.Parse(expiredString[1]);
 
-                new DateTime(month, year, 01);
+                var expireDate = new DateTime(year, month, 01);
+                var now = DateTime.Now;
+
+                if(expireDate.Year < now.Year || (expireDate.Month < now.Month && expireDate.Year == now.Year))
+                {
+                    messages.Append("Cartão expirado!" + Environment.NewLine);
+                }
+
             }
             catch (Exception e)
             {
@@ -151,7 +166,7 @@ namespace AppShopping.ViewModels
             {
                 messages.Append("O CPF está incompleto !" + Environment.NewLine);
             }
-            else if (CPFValidator.IsCpf(creditCard.Document))
+            else if (!CPFValidator.IsCpf(creditCard.Document))
             {
                 messages.Append("O CPF é inválido!" + Environment.NewLine);
             }
