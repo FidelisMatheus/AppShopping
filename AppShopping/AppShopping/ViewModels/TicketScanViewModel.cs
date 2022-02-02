@@ -80,7 +80,7 @@ namespace AppShopping.ViewModels
         {
             try
             {
-                var ticket = new TicketService().GetTicketInfo(ticketNumber);
+                var ticket = new TicketService().GetTicketToPaid(ticketNumber);
 
                 //Navegar para página de pagamento do Ticket
                 Shell.Current.GoToAsync($"ticket/payment?number={ticketNumber}"); //passando o numero para a ViewModel Payment

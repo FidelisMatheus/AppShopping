@@ -5,6 +5,7 @@ using AppShopping.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -32,7 +33,7 @@ namespace AppShopping.ViewModels
                 SetProperty(ref _number, value);
 
                 //Pesquisar Ticket e Jogar na tela.
-                Ticket = _ticketService.GetTicketInfo(value);
+                Ticket = _ticketService.GetTicketToPaid(value);
 
                 //GetTicketInfo já realiza o calculo necessario.
             }
@@ -71,10 +72,10 @@ namespace AppShopping.ViewModels
 
             CreditCard = new CreditCard();
 
-            PaymentCommand = new Command(Payment);
+            PaymentCommand = new MvvmHelpers.Commands.AsyncCommand(Payment);
         }
 
-        private void Payment()
+        private async Task Payment()
         {
             //Tipos de Validações - Manual, Data Annotations e Fluent Validation (pesquisar)
 
@@ -89,10 +90,11 @@ namespace AppShopping.ViewModels
                     //Caso não funcionar com os acima utilizar> Cielo, Visa, Elo, MasterCard.
                     string transactionId = _paymentService.SendPayment(CreditCard, Ticket);
                     Ticket.TransactionId = transactionId;
-
-                    var x = _ticketService.GetTicketsPaid();
-
                     Ticket.Status = Libraries.Enuns.TicketStatus.paid;
+
+                    _ticketService.UpdateTicket(Ticket);
+
+                    await Shell.Current.GoToAsync($"ticket/payment/success?number={Ticket.Number}");
 
                     //TODO - Redirecionar para tela de sucesso.
                 }
@@ -103,9 +105,7 @@ namespace AppShopping.ViewModels
             }
             catch (Exception)
             {
-
-                //TODO - Colocar mensagem de erro. redirecionar erro
-                throw;
+                await Shell.Current.GoToAsync($"ticket/payment/failed?number={Ticket.Number}");
             }
         }
 

@@ -20,6 +20,8 @@ namespace AppShopping
             Routing.RegisterRoute("film/detail", typeof(Views.FilmDetail));
             Routing.RegisterRoute("ticket/paid/history", typeof(Views.TicketPaidHistory));
             Routing.RegisterRoute("ticket/payment", typeof(Views.TicketPayment));
+            Routing.RegisterRoute("ticket/payment/success", typeof(Views.TicketPaymentSuccess));
+            Routing.RegisterRoute("ticket/payment/failed", typeof(Views.TicketPaymentFailed));
         }
     }
 }

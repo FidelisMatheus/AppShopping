@@ -22,7 +22,7 @@ namespace AppShopping.Services
             return fakeTickets.Where(a => a.Status == TicketStatus.paid).ToList();
         }
 
-        public Ticket GetTicketInfo(string number)
+        public Ticket GetTicketToPaid(string number)
         {
             var endDate = DateTime.Now;
 
@@ -46,14 +46,27 @@ namespace AppShopping.Services
             return ticket;
         }
 
+        public Ticket GetTicket(string number)
+        {
+            var ticket = fakeTickets.FirstOrDefault(a => a.Number == number);
+
+            if (ticket == null)
+            {
+                throw new Exception("Ticket não encontrado!");
+            }
+
+            return ticket;
+        }
+
         public void UpdateTicket(Ticket newTicket)
         {
-            var oldticket = fakeTickets.FirstOrDefault(a => a.Number == newTicket.Number);
-            oldticket.TransactionId = newTicket.TransactionId;
-            oldticket.EndDate = newTicket.EndDate;
-            oldticket.Price = newTicket.Price;
-            oldticket.Status = newTicket.Status;
+            //Enviar para o Servidor a atualização do Ticket (API). -> o Banco de Dados
 
+            //var oldticket = fakeTickets.FirstOrDefault(a => a.Number == newTicket.Number);
+            //oldticket.TransactionId = newTicket.TransactionId;
+            //oldticket.EndDate = newTicket.EndDate;
+            //oldticket.Price = newTicket.Price;
+            //oldticket.Status = newTicket.Status;
         }
 
         private double PriceCalculator(Ticket ticket)
