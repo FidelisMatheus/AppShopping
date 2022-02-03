@@ -12,7 +12,13 @@ namespace AppShopping.ViewModels
 {
     public class TicketScanViewModel : BaseViewModel
     {
-        public string TicketNumber { get; set; }
+        private string _ticketNumber;
+        public string TicketNumber
+        {
+            get { return _ticketNumber; }
+            set { SetProperty(ref _ticketNumber, value); }
+        }
+
         public ICommand TicketTextChangedCommand { get; set; } //comando para verificar a escrita
         public ICommand TicketScanCommand { get; set; } //Comando para a chamada da Camera
         
@@ -76,14 +82,16 @@ namespace AppShopping.ViewModels
         }
 
 
-        private void TicketProcess(string ticketNumber)
+        private async Task TicketProcess(string ticketNumber)
         {
             try
             {
                 var ticket = new TicketService().GetTicketToPaid(ticketNumber);
 
                 //Navegar para página de pagamento do Ticket
-                Shell.Current.GoToAsync($"ticket/payment?number={ticketNumber}"); //passando o numero para a ViewModel Payment
+                await Shell.Current.GoToAsync($"ticket/payment?number={ticketNumber}"); //passando o numero para a ViewModel Payment
+
+                TicketNumber = string.Empty; //limpar o entry
             }
             catch (Exception e)
             {

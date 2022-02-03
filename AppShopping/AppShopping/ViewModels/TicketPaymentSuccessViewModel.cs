@@ -43,6 +43,17 @@ namespace AppShopping.ViewModels
             OKCommand = new Command(OK);
 
             _ticketService = new TicketService();
+
+            /*
+             * [0] - TicketScan
+             * [1] - TicketPayment (remover essa tela)
+             * [2] - Success/Failed
+             */
+
+            int indexScreenToRemove = 1;
+            Shell.Current.Navigation.RemovePage(
+                Shell.Current.Navigation.NavigationStack[indexScreenToRemove]    
+            );
         }
 
         private void OK()

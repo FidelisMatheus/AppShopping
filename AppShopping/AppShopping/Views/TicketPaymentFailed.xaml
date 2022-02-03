@@ -105,7 +105,7 @@
                         <Label
                             FontSize="14"
                             Style="{StaticResource DescriptionEstablishment}"
-                            Text="Cartão sem limite"
+                            Text="{Binding Message}"
                             TextColor="#F44343" />
 
                         <Label Style="{StaticResource DescriptionEstablishment}" Text="Busque nossos caixas espalhados no shopping para mais opções de pagamento." />
@@ -115,6 +115,7 @@
 
                 <Button
                     Margin="0,20,0,0"
+                    Command="{Binding OKCommand}"
                     HorizontalOptions="Center"
                     Style="{StaticResource TicketPaidButton}"
                     Text="OK"
