@@ -24,3 +24,4 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\App
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\ref\AppShopping.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.pdb
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\News.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Wifi.xaml.g.cs

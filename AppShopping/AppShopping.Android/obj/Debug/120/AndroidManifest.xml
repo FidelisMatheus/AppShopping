@@ -12,6 +12,8 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.FLASHLIGHT" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
   <application android:label="App-Shopping" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/MainTheme" android:name="crc64a27a520fb6597ff1.MainActivity" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="App - Shopping" android:theme="@style/MainTheme.Splash" android:name="crc64a27a520fb6597ff1.SplashActivity" android:exported="true">
