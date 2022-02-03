@@ -5,6 +5,17 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\App
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.AssemblyReference.cache
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.GeneratedMSBuildEditorConfig.editorconfig
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Cinema.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\EstablishmentDetail.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\FilmDetail.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Restaurants.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Stores.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPaidHistory.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPayment.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPaymentFailed.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPaymentSuccess.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketScan.xaml.g.cs
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfoInputs.cache
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfo.cs
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.CoreCompileInputs.cache
@@ -12,5 +23,5 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Xam
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\ref\AppShopping.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.pdb
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Menu.xaml.g.cs
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Stores.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\News.xaml.g.cs
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Wifi.xaml.g.cs

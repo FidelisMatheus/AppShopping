@@ -1,12 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "tuqyoej3FfT0X6meWnXXrTVh2tmBQrcRlXhe4dfV8d1siaNo7uyHSck6sCSFmQI1FNdRmxg/MlZMuIiD62iadA==",
+  "dgSpecHash": "cu5hDLTNPZuJ/PHBILYLEM8LIZsWansC+iXBuWHJnMx1cZaj7x5rgNN76OiXOwW8v8LnMK2YoT+KabXXcZ13jA==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Udemy\\AppShopping\\AppShopping\\AppShopping.iOS\\AppShopping.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mfmat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\mfmat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+    "C:\\Users\\mfmat\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms.maskedentry\\1.1.0\\xamarin.forms.maskedentry.1.1.0.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\mfmat\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

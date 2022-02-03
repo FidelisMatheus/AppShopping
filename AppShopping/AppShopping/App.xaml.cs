@@ -10,6 +10,8 @@ namespace AppShopping
         {
             InitializeComponent();
 
+            Device.SetFlags(new string[] {"Shapes_Experimental"});
+
             MainPage = new Menu();
         }
 
