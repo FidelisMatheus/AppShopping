@@ -61,6 +61,8 @@ namespace AppShopping.ViewModels
         }
 
         public ICommand PaymentCommand { get; set; } //Botao de pagamento
+        public ICommand CreditCardScanCommand { get; set; }
+
         private PaymentService _paymentService;
 
 
@@ -73,6 +75,7 @@ namespace AppShopping.ViewModels
             CreditCard = new CreditCard();
 
             PaymentCommand = new MvvmHelpers.Commands.AsyncCommand(Payment);
+            CreditCardScanCommand = new MvvmHelpers.Commands.AsyncCommand(CreditCardScan);
         }
 
         private async Task Payment()
@@ -172,6 +175,12 @@ namespace AppShopping.ViewModels
             }
 
             return messages.ToString();
+        }
+        
+        private async Task CreditCardScan()
+        {
+            //TODO - Scannear
+            //TODO - Atribuir aos campos da Tela.
         }
     }
 }

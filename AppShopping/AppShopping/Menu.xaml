@@ -11,7 +11,7 @@
             ColumnDefinitions="1*, 2*"
             RowDefinitions="Auto, Auto">
 
-            <Image Grid.RowSpan="2" Source="BagWhite" /> 
+            <Image Grid.RowSpan="2" Source="BagWhite" />
             <!--  aqui o rowSpan realiza uma mesclagem com a linha que escrevemos, no caso a 2  -->
 
             <Label
@@ -47,7 +47,7 @@
 
     <ShellContent
         Title="Novidades"
-        ContentTemplate="{DataTemplate views:Stores}"
+        ContentTemplate="{DataTemplate views:News}"
         Icon="MenuIconNews" />
     <ShellContent
         Title="Como chegar"
@@ -56,10 +56,6 @@
     <ShellContent
         Title="Wifi"
         ContentTemplate="{DataTemplate views:Stores}"
-        Icon="MenuIconWifi" />
-    <ShellContent
-        Title="Film Detail"
-        ContentTemplate="{DataTemplate views:FilmDetail}"
         Icon="MenuIconWifi" />
 
 </Shell>

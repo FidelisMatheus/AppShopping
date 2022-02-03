@@ -23,3 +23,4 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Xam
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\ref\AppShopping.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.pdb
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\News.xaml.g.cs

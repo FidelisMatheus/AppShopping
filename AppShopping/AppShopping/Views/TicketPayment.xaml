@@ -133,12 +133,21 @@
                             CornerRadius="0"
                             HasShadow="False">
 
-                            <control:MaskedEntry
-                                Keyboard="Numeric"
-                                Mask="XXXX XXXX XXXX XXXX"
-                                Placeholder="Número do cartão"
-                                Style="{StaticResource EntryPayment}"
-                                Text="{Binding CreditCard.Number}" />
+                            <Grid ColumnDefinitions="*, 25">
+                                <control:MaskedEntry
+                                    Grid.Column="0"
+                                    Keyboard="Numeric"
+                                    Mask="XXXX XXXX XXXX XXXX"
+                                    Placeholder="Número do cartão"
+                                    Style="{StaticResource EntryPayment}"
+                                    Text="{Binding CreditCard.Number}" />
+
+                                <ImageButton
+                                    Grid.Column="1"
+                                    BackgroundColor="Transparent"
+                                    HorizontalOptions="Start"
+                                    Source="photograph" />
+                            </Grid>
 
                         </Frame>
 

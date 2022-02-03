@@ -358,10 +358,7 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androi
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\ZXing.Net.Mobile.Forms.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\zxing.portable.dll
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\android\assets\ZXingNetMobile.dll
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\jl\80d72813-ce3c-431e-9899-debe0d8ae1bd.jar
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\bb74fbcf-60a7-4664-b3b1-55498c8f9d0e.cfg
-D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\d737d812-1fce-4498-b231-80cfeb4b38ad.txt
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXJetifyProguardRules.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\_AndroidXJetifyProguardRules.jetify
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_AndroidXCecilfy.stamp
@@ -779,3 +776,6 @@ D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\jl\d9856764-5646-4f17-bf86-de02f37c21ff.jar
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\b63f8caf-7e93-48bf-b42c-615a07950055.cfg
+D:\Cursos\Udemy\AppShopping\AppShopping\AppShopping.Android\obj\Debug\120\androidx\proguard\d83a25a7-1de4-4da3-986a-38948535e84a.txt
